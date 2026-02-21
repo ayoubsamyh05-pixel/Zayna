@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import logo from "./images/Logo.jpeg";
+import logo from "./image/Logo.jpeg";
 import Link from 'next/link'
 import React from 'react'
 
