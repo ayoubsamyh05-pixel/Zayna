@@ -21,9 +21,11 @@ export default function RootLayout({
     <ClerkProvider>
     <html lang="en" crxlauncher="">
       <body className="font-poppins antialiased">
-        <Header />
-        {children}
-        <Footer />
+        <div className="flex flex-col min-h-screen">
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
     </ClerkProvider>
