@@ -5,7 +5,7 @@ import React from 'react'
 
 const Logo = () => {
   return (
-    <Link href="/">
+    <Link href={"/"} className='inline-flex'>
         <Image src={logo} alt="Zayna online store" width={150} height={50} />
     </Link>
   )

@@ -1,6 +1,5 @@
 import "./globals.css";
 import { Toaster } from "react-hot-toast";
-
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
@@ -19,5 +18,4 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
     </html>
   );
 };
-
 export default RootLayout;
